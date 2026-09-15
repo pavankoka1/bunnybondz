@@ -1,6 +1,8 @@
 include:
   - package:very_good_analysis/analysis_options.yaml
   - package:bloc_lint/recommended.yaml
+plugins:
+  riverpod_lint: ^3.1.9
 analyzer:
   exclude:
     - lib/l10n/gen/*
